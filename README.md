@@ -16,8 +16,7 @@ ros2 launch softleg_gazebo sim.launch.py ```
 source /opt/ros/humble/setup.bash
 colcon build --symlink-install && . install/setup.bash
 export ROS_DOMAIN_ID=10
-ros2 launch rlg_quad_controller softleg_simulation.launch.py 
-```
+ros2 launch rlg_quad_controller softleg_simulation.launch.py ```
 
 # Usage in Exp
 
@@ -29,5 +28,4 @@ colcon build --symlink-install && . install/setup.bash
 export ROS_DOMAIN_ID=10
 ros2 launch jumping_experiments controller_start.launch.py
 ros2 run jumping_experiments getup
-ros2 launch jumping_experiments experiment.launch.py exp:='experiment_number_1' csv:='Data.csv' height:='1.0' duration:='3.0'
-```
+ros2 launch jumping_experiments experiment.launch.py exp:='experiment_number_1' csv:='Data.csv' height:='1.0' duration:='3.0' ```
