@@ -10,13 +10,15 @@ Training has been done by implementing RL-baseline PPO via the NVIDIA Omniverse 
 source /opt/ros/humble/setup.bash
 colcon build --symlink-install && . install/setup.bash
 export ROS_DOMAIN_ID=10
-ros2 launch softleg_gazebo sim.launch.py ```
+ros2 launch softleg_gazebo sim.launch.py
+ ```
 (ii)
 ```
 source /opt/ros/humble/setup.bash
 colcon build --symlink-install && . install/setup.bash
 export ROS_DOMAIN_ID=10
-ros2 launch rlg_quad_controller softleg_simulation.launch.py ```
+ros2 launch rlg_quad_controller softleg_simulation.launch.py
+```
 
 # Usage in Exp
 
