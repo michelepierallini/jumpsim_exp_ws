@@ -35,4 +35,4 @@ ros2 launch jumping_experiments experiment.launch.py exp:='experiment_number_1' 
 
 
 # Please
-Change the path of .stl files to the softlegisaac.urdf
+Change the path of ```.stl``` files to the ```softlegisaac.urdf```
