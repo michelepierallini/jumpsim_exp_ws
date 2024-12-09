@@ -30,8 +30,9 @@ colcon build --symlink-install && . install/setup.bash
 export ROS_DOMAIN_ID=10
 ros2 launch jumping_experiments controller_start.launch.py
 ros2 run jumping_experiments getup
-ros2 launch jumping_experiments experiment.launch.py exp:='experiment_number_1' csv:='Data.csv' height:='1.0' duration:='3.0' ```
+ros2 launch jumping_experiments experiment.launch.py exp:='experiment_number_1' csv:='Data.csv' height:='1.0' duration:='3.0'
+```
 
 
 # Please
-change the path of .stl files into the softlegisaac.urdf
+Change the path of .stl files to the softlegisaac.urdf
