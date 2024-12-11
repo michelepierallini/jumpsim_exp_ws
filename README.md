@@ -1,8 +1,9 @@
 Repo for experiments using the SoftLeg (3 DoFs SEA-robot). 
 [Paper](https://ieeexplore.ieee.org/abstract/document/10529546)
 
-Training has been done by implementing RL-baseline PPO via the NVIDIA Omniverse framework 
+Training has been done by implementing RL-baseline PPO via the NVIDIA Omniverse framework [softleg_jump_cinque.py](https://github.com/michelepierallini/OmniIsaacGymEnvs/blob/main/omniisaacgymenvs/tasks/softleg_jump_cinque.py)
 
+The interference Node is mainly adapted from [loco_sim](https://github.com/CentroEPiaggio/locosim_ws)
 
 # Usage in Simulations
 (i)
